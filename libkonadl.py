@@ -103,7 +103,7 @@ class Konadl:
         self.yandere = False  # Use Yande.re website
         self.safe = True
         self.explicit = False
-        self.questionable = False
+        self.questionable = True
         self.current_newest_id = False
         self.previous_newest_id = False
         self.post_crawler_threads_amount = 10
