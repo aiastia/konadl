@@ -37,3 +37,9 @@ jobs:
       with:
         name: Konachan
         path: ./Konachan/
+        
+    - name: Delete workflow runs
+      uses: GitRML/delete-workflow-runs@main
+      with:
+        retain_days: 10
+        keep_minimum_runs: 30
