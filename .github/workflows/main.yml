@@ -33,7 +33,7 @@ jobs:
         mkdir ./Konachan/Konachan-$(date -d +1day +%Y-%m-%d)/
         mv ./pic/* ./Konachan/Konachan-$(date -d +1day +%Y-%m-%d)/
     
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: Konachan
         path: ./Konachan/
